@@ -23,9 +23,9 @@ Example:
 
 {{Concise description of your package (2 or 3 sentences)}}
 
-{{Replace link below with the simplest meaningful demo of your Elm package on https://ellie-app.com/}}
+{{Replace link below with the simplest meaningful demo of your Elm package on https://ellie-app.com/ }}
 
-See an [example in action on Ellie ]({{YOUR LINK HERE}}).
+See an [example in action on Ellie]({{YOUR LINK HERE}}).
 
 See more end-to-end example code in the `examples/` folder.
 
