@@ -108,6 +108,13 @@ Every time someone asks a question, consider answering it in your FAQ.
 
 ## 4. Easy to tell if it's the right fit for the problem at hand.
 
+See [the Design Goals section of the README template](https://github.com/dillonkearns/idiomatic-elm-package-guide/blob/master/TEMPLATE.md#design-goals).
+
+Here are some examples of design goals clearly stated in an Elm package README:
+
+* [Graphqelm design goals](https://github.com/dillonkearns/graphqelm#graphqelm)
+* [Style Elements design goals](https://github.com/mdgriffith/style-elements/#building-a-new-layout-language)
+
 ## 5. Consistent with the README and documentation conventions in the Elm community.
 
 ### License
