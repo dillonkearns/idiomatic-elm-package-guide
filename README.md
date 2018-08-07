@@ -83,7 +83,7 @@ This is more granular than the commit log itself.
 
 Copy-paste the template from [Keep a Changelog](https://keepachangelog.com/) to get started and follow the principles stated there. It's very well thought out and easy to follow once you get going with it.
 
-### Maintaining Frequently Asked Questions (FAQ)
+### Maintain a Frequently Asked Questions (FAQ)
 
 Every time someone asks a question, consider answering it in your FAQ.
 
