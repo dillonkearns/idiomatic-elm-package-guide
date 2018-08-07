@@ -45,10 +45,6 @@ Since Elm packages are reliable due to the nature of the elm language and its gu
 
 * Link to a live [Ellie](https://ellie-app.com/) Demo
 
-## Usage
-
-{{Any setup instructions like how to hook the package code into the user's `update`/`init` functions. Or any scripts to run to do code generation, etc.}}
-
 ## Learning Resources
 
 Ask for help on the [Elm Slack](https://elmlang.herokuapp.com/) in the #{{relevant-channel-name}}. {{It's nice to add a friendly word of encouragement to make users feel welcome to ask questions here.}}
@@ -58,3 +54,7 @@ Ask for help on the [Elm Slack](https://elmlang.herokuapp.com/) in the #{{releva
 {{Any other relevant blog posts, youtube videos, gitbooks, etc.
 Here's a [nice example from the style-elements package](https://github.com/mdgriffith/style-elements/#resources-to-get-you-started)
 }}
+
+## Usage
+
+{{Any setup instructions like how to hook the package code into the user's `update`/`init` functions. Or any scripts to run to do code generation, etc.}}
