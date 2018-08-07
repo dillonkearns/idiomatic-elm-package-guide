@@ -32,9 +32,7 @@ See more end-to-end example code in the `examples/` folder.
 ## Design Goals
 
 {{
-What differentiates your project from any other project out there?
-Since Elm packages are reliable due to the nature of the elm language and its guarantees, what makes Elm packages stick out more is not its reliability, but its design philosophy. So we put the design philosophy as the first section after the initial introduction.
-}}
+See the [State Your Design Goals section from the README](https://github.com/dillonkearns/idiomatic-elm-package-guide#explicitly-state-design-goals-in-your-readme) }}
 
 ## Overview
 
