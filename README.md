@@ -91,15 +91,6 @@ Every time someone asks a question, consider answering it in your FAQ.
 * Instead of directly answering a common question, send a link to the answer. That way you don't ever have to write that answer again, and it is there for future reference.
 * If a question keeps coming up, it may also mean that it's an opportunity to make your API simpler or more intuitive.
 
-## Useful Resources
-
-Brian's talk on publishing a package
-Elm package previews
-Medium blog posts on publishing elm packages
-Elm guide on publishing packages, making nice modules and docs
-Richard's Elm Europe talk on APIs (both keynotes)
-Evan's talk on the evolution of a package
-
 ## License
 
 ## Managing feature requests
@@ -108,22 +99,12 @@ Evan's talk on the evolution of a package
 
 ## Tracking contributors
 
-## Hiding Types for your package
-
-Expose the minimum possible interface, and [make impossible states impossible (see this video)](Link).
-Blog posts on fancy types, like opaque, phantom, etc. Use these tools to make impossible states impossib le
-
-## Nice examples of elm packages that follow this philosophy
-
-Remote Data
-Style Elements
-Graphqelm
-
 ## Resources
 
 * [Elm Documentation Preview tool](http://package.elm-lang.org/help/docs-preview)
 * [Official guide for creating Elm docs](http://package.elm-lang.org/help/documentation-format)
 
-## _TODO_
+Here are a couple of blog posts on the basics of publishing an Elm package:
 
-* [ ] Badge for this site
+* [Publishing Your First Elm Package - @billperegoy](https://becoming-functional.com/publishing-your-first-elm-package-13d984a1200a)
+* [How to publish an Elm package - @Max_Goldstein](https://medium.com/@Max_Goldstein/how-to-publish-an-elm-package-3053b771e545)
