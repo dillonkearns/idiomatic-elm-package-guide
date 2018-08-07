@@ -19,6 +19,21 @@ The rest of this document provides guiding principles, tips, and resources.
 
 Feedback through Slack, Github issues, or pull requests is always welcome! If it's not an obvious change, it might be best to hold off on the pull request until after some initial discussion around the idea to make sure we're on the same page.
 
+## Learning Resources
+
+### The Basics
+
+* The [Elm Package Documentation](https://github.com/elm-lang/elm-package) has basic information on publishing a package, and a few design guidelines
+* [Elm Documentation Preview tool](http://package.elm-lang.org/help/docs-preview) is how you see your docs locally before publishing your package.
+* [Official guide for creating Elm docs](http://package.elm-lang.org/help/documentation-format)
+
+Here are a couple of blog posts on the basics of publishing an Elm package:
+
+* [Publishing Your First Elm Package - @billperegoy](https://becoming-functional.com/publishing-your-first-elm-package-13d984a1200a)
+* [How to publish an Elm package - @Max_Goldstein](https://medium.com/@Max_Goldstein/how-to-publish-an-elm-package-3053b771e545)
+
+# Core Principles
+
 ## 1. Valuable
 
 If your package isn't valuable, then the rest of these principles won't help you much! Here are some tips to maximize the value of your Elm package.
@@ -91,17 +106,10 @@ Every time someone asks a question, consider answering it in your FAQ.
 * Instead of directly answering a common question, send a link to the answer. That way you don't ever have to write that answer again, and it is there for future reference.
 * If a question keeps coming up, it may also mean that it's an opportunity to make your API simpler or more intuitive.
 
-## License
+## 4. Easy to tell if it's the right fit for the problem at hand.
+
+## 5. Consistent with the README and documentation conventions in the Elm community.
+
+### License
 
 The [recommended license for Elm projects is BSD3](https://github.com/elm-lang/elm-package#preparing-for-publication).
-
-## The Basics
-
-* The [Elm Package Documentation](https://github.com/elm-lang/elm-package) has basic information on publishing a package, and a few design guidelines
-* [Elm Documentation Preview tool](http://package.elm-lang.org/help/docs-preview) is how you see your docs locally before publishing your package.
-* [Official guide for creating Elm docs](http://package.elm-lang.org/help/documentation-format)
-
-Here are a couple of blog posts on the basics of publishing an Elm package:
-
-* [Publishing Your First Elm Package - @billperegoy](https://becoming-functional.com/publishing-your-first-elm-package-13d984a1200a)
-* [How to publish an Elm package - @Max_Goldstein](https://medium.com/@Max_Goldstein/how-to-publish-an-elm-package-3053b771e545)
