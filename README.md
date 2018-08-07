@@ -62,7 +62,16 @@ These videos are full of great tips for designing APIs.
 * [Make Impossible States Impossible](https://www.youtube.com/watch?v=IcgmSRJHu_8)
 * [Understanding Style - Matthew Griffith @ Elm Europe 2017](https://www.youtube.com/watch?v=NYb2GDWMIm0) - Matt goes into details about his consumer-driven API
 
-## `CHANGELOG.md`
+## 3. Easy to learn and use
+
+See [the Learning Resources section in the README template](https://github.com/dillonkearns/idiomatic-elm-package-guide/blob/master/TEMPLATE.md#learning-resources).
+
+Here are some examples of learning sections from Elm package READMEs:
+
+* [Style Elements learning section](https://github.com/mdgriffith/style-elements/tree/9c36d062f55e0a2b32e5b0158037ed8ff91adcd7#resources-to-get-you-started)
+* [Graphqelm learning section](https://github.com/dillonkearns/graphqelm#learning-resources)
+
+### `CHANGELOG.md`
 
 Maintain a file called `CHANGELOG.md` in the root folder of your project on Github. The purpose of this is to make it easy for users to
 
@@ -74,7 +83,7 @@ This is more granular than the commit log itself.
 
 Copy-paste the template from [Keep a Changelog](https://keepachangelog.com/) to get started and follow the principles stated there. It's very well thought out and easy to follow once you get going with it.
 
-## Maintaining Frequently Asked Questions (FAQ)
+### Maintaining Frequently Asked Questions (FAQ)
 
 Every time someone asks a question, consider answering it in your FAQ.
 
