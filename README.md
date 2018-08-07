@@ -117,6 +117,8 @@ Here are some examples of design goals clearly stated in an Elm package README:
 
 ## 5. Consistent with the README and documentation conventions in the Elm community.
 
+Follow this template! See the [How to Use This Guide](https://github.com/dillonkearns/idiomatic-elm-package-guide#how-to-use-this-guide) section of this README!
+
 ### License
 
 The [recommended license for Elm projects is BSD3](https://github.com/elm-lang/elm-package#preparing-for-publication).
