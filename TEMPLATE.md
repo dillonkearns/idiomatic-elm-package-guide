@@ -29,14 +29,14 @@ See an [example in action on Ellie]({{YOUR LINK HERE}}).
 
 See more end-to-end example code in the `examples/` folder.
 
-### Design Goals
+## Design Goals
 
 {{
 What differentiates your project from any other project out there?
 Since Elm packages are reliable due to the nature of the elm language and its guarantees, what makes Elm packages stick out more is not its reliability, but its design philosophy. So we put the design philosophy as the first section after the initial introduction.
 }}
 
-### Overview
+## Overview
 
 ```elm
 {{Inline code snippet showcasing the simplest possible
@@ -45,11 +45,11 @@ Since Elm packages are reliable due to the nature of the elm language and its gu
 
 * Link to a live [Ellie](https://ellie-app.com/) Demo
 
-### Usage
+## Usage
 
 {{Any setup instructions like how to hook the package code into the user's `update`/`init` functions. Or any scripts to run to do code generation, etc.}}
 
-### Learning Resources
+## Learning Resources
 
 Ask for help on the [Elm Slack](https://elmlang.herokuapp.com/) in the #{{relevant-channel-name}}. {{It's nice to add a friendly word of encouragement to make users feel welcome to ask questions here.}}
 
