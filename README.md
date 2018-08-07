@@ -93,15 +93,12 @@ Every time someone asks a question, consider answering it in your FAQ.
 
 ## License
 
-## Managing feature requests
+The [recommended license for Elm projects is BSD3](https://github.com/elm-lang/elm-package#preparing-for-publication).
 
-## Code of conduct
+## The Basics
 
-## Tracking contributors
-
-## Resources
-
-* [Elm Documentation Preview tool](http://package.elm-lang.org/help/docs-preview)
+* The [Elm Package Documentation](https://github.com/elm-lang/elm-package) has basic information on publishing a package, and a few design guidelines
+* [Elm Documentation Preview tool](http://package.elm-lang.org/help/docs-preview) is how you see your docs locally before publishing your package.
 * [Official guide for creating Elm docs](http://package.elm-lang.org/help/documentation-format)
 
 Here are a couple of blog posts on the basics of publishing an Elm package:
