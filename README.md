@@ -132,3 +132,9 @@ Follow this template! See the [How to Use This Guide](https://github.com/dillonk
 ### License
 
 The [recommended license for Elm projects is BSD3](https://github.com/elm-lang/elm-package#preparing-for-publication).
+
+### Package Naming
+
+* The Elm community encourages that package authors follow its [Literal Naming Policy](https://discourse.elm-lang.org/t/literal-names-policy-i-e-how-to-name-packages/242).
+
+* The Elm core team recommends that you "use the `elm-` prefix unless `elm` already appears in the repository name".
