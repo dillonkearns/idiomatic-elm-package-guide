@@ -79,6 +79,20 @@ These videos are full of great tips for designing APIs.
 
 ## 3. Easy to learn and use
 
+### Use Ubiquitous Domain Language
+
+Use the same language everywhere, whether it's in a doc comment,
+the README, an example folder, an exposed function name or type, a type variable name.
+And even your internal code! Bad naming in the internals of your code will
+inevitably leak out into confusing names that are public facing.
+
+With that said, recognize that [naming is a process](http://arlobelshee.com/good-naming-is-a-process-not-a-single-step/).
+Don't expect to have the perfect names mapped out in your first commit. Iterate
+on the naming, just be sure to relentlessly do renaming refactors and module
+extracts as you see the opportunity for more clear names.
+
+### Learning Resources
+
 See [the Learning Resources section in the README template](https://github.com/dillonkearns/idiomatic-elm-package-guide/blob/master/TEMPLATE.md#learning-resources).
 
 Here are some examples of learning sections from Elm package READMEs:
