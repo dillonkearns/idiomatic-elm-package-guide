@@ -1,8 +1,8 @@
 # Idiomatic Elm Package Guide
 
-## Goals
+## Goals/Table of Contents
 
-The purpose of this guide is to provide you with resources to get started writing an Elm package. And to
+The purpose of this guide is to provide you with [resources to get started writing an Elm package](#learning-resources). And to
 help you write an Elm package that is:
 
 1. [Valuable](#1-valuable)
