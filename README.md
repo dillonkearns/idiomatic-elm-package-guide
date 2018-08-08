@@ -5,11 +5,11 @@
 The purpose of this guide is to provide you with resources to get started writing an Elm package. And to
 help you write an Elm package that is:
 
-1. Valuable.
-1. Constrained to prevent impossible states.
-1. Easy to learn and use.
-1. Easy to tell if it's the right fit for the problem at hand.
-1. Consistent with the README and documentation conventions in the Elm community.
+1. [Valuable](#1-valuable)
+1. [Constrained to prevent impossible states](#2-well-constrained)
+1. [Easy to learn and use](#3-easy-to-learn-and-use)
+1. [Easy to tell if it's the right fit for the problem at hand](#4-easy-to-tell-if-its-the-right-fit-for-the-problem-at-hand)
+1. [Consistent with the README and documentation conventions in the Elm community](#5-consistent-with-the-readme-and-documentation-conventions-in-the-elm-community)
 
 ## How to Use This Guide
 
@@ -120,7 +120,7 @@ Every time someone asks a question, consider answering it in your FAQ.
 * Instead of directly answering a common question, send a link to the answer. That way you don't ever have to write that answer again, and it is there for future reference.
 * If a question keeps coming up, it may also mean that it's an opportunity to make your API simpler or more intuitive.
 
-## 4. Easy to tell if it's the right fit for the problem at hand.
+## 4. Easy to tell if it's the right fit for the problem at hand
 
 ### Explicitly State Design Goals in Your README
 
@@ -139,7 +139,7 @@ Here are some examples of design goals clearly stated in an Elm package README:
 
 See [the Design Goals section of the README template](https://github.com/dillonkearns/idiomatic-elm-package-guide/blob/master/TEMPLATE.md#design-goals).
 
-## 5. Consistent with the README and documentation conventions in the Elm community.
+## 5. Consistent with the README and documentation conventions in the Elm community
 
 Follow this template! See the [How to Use This Guide](https://github.com/dillonkearns/idiomatic-elm-package-guide#how-to-use-this-guide) section of this README!
 
