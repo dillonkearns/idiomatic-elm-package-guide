@@ -120,6 +120,11 @@ Every time someone asks a question, consider answering it in your FAQ.
 * Instead of directly answering a common question, send a link to the answer. That way you don't ever have to write that answer again, and it is there for future reference.
 * If a question keeps coming up, it may also mean that it's an opportunity to make your API simpler or more intuitive.
 
+### Always expose types that can be created from your API
+You often see Github issues or pull requests [like this one](https://github.com/mdgriffith/style-elements/pull/95) requesting that [an Opaque Type](https://medium.com/@ckoster22/advanced-types-in-elm-opaque-types-ec5ec3b84ed2) be exposed in the API so that users of the API can annotate their functions that use values of that type. Avoid these types of requests by always following this rule of thumb:
+
+> If your public API allows you to create a value (even an intermediary one) of a given type, *always* expose that type in your public API so users can annotate their functions.
+
 ## 4. Easy to tell if it's the right fit for the problem at hand
 
 ### Explicitly State Design Goals in Your README
