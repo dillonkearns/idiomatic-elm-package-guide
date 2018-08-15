@@ -79,10 +79,11 @@ These videos are full of great tips for designing APIs.
 
 ## 3. Easy to learn and use
 
-### Use Ubiquitous Domain Language
+### Use [Ubiquitous Domain Language](https://martinfowler.com/bliki/UbiquitousLanguage.html)
 
 Use the same language everywhere, whether it's in a doc comment,
-the README, an example folder, an exposed function name or type, a type variable name.
+the README, an example folder, an exposed function name or type, a type variable name
+(yes, even type variables, they show up in the docs, so they deserve great names, too!).
 And even your internal code! Bad naming in the internals of your code will
 inevitably leak out into confusing names that are public facing.
 
