@@ -99,7 +99,7 @@ See [the Learning Resources section in the README template](https://github.com/d
 Here are some examples of learning sections from Elm package READMEs:
 
 * [Style Elements learning section](https://github.com/mdgriffith/style-elements/tree/9c36d062f55e0a2b32e5b0158037ed8ff91adcd7#resources-to-get-you-started)
-* [Graphqelm learning section](https://github.com/dillonkearns/graphqelm#learning-resources)
+* [`dillonkearns/elm-graphql` learning section](https://github.com/dillonkearns/elm-graphql#learning-resources)
 
 ### `CHANGELOG.md`
 
@@ -140,7 +140,7 @@ Writing out explicit design goals is a great idea even before you write any code
 
 Here are some examples of design goals clearly stated in an Elm package README:
 
-* [Graphqelm design goals](https://github.com/dillonkearns/graphqelm#graphqelm)
+* [`dillonkearns/elm-graphql` design goals](https://github.com/dillonkearns/elm-graphql#dillonkearnselm-graphql)
 * [Style Elements design goals](https://github.com/mdgriffith/style-elements/#building-a-new-layout-language)
 
 See [the Design Goals section of the README template](https://github.com/dillonkearns/idiomatic-elm-package-guide/blob/master/TEMPLATE.md#design-goals).
