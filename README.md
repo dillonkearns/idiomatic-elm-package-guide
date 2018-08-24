@@ -81,8 +81,14 @@ These videos are full of great tips for designing APIs.
 
 ### Use the ["Inverted Pyramid"](<https://en.wikipedia.org/wiki/Inverted_pyramid_(journalism)>)
 
+You need a hook that let's potential users know whether it's worth their time
+to read more about your package or try it out. So give very clear summaries
+at the top that include key points. You can use this basic inverted pyarmid
+structure from journalism (i.e. bottom line up front... however far you
+read, you've read the most important points).
+
 1. Key summary
-   - Headline
+   - Headline (the github project description... this is the first thing users see)
    - Why would I want to use this over other packages?
    - What problem does it solve?
 2. Important details
@@ -161,7 +167,27 @@ See [the Design Goals section of the README template](https://github.com/dillonk
 
 ## 5. Consistent with the README and documentation conventions in the Elm community
 
-Follow this template! See the [How to Use This Guide](https://github.com/dillonkearns/idiomatic-elm-package-guide#how-to-use-this-guide) section of this README!
+You can use this template as a starting point. See the [How to Use This Guide](https://github.com/dillonkearns/idiomatic-elm-package-guide#how-to-use-this-guide) section of this README!
+
+Here are some examples of packages that you can use as inspiration:
+
+- [`elm-test`](https://github.com/elm-community/elm-test)
+- [`mdgriffith/style-elements`](https://github.com/mdgriffith/style-elements/)
+- [`dillonkearns/elm-graphql`](https://github.com/dillonkearns/elm-graphql)
+
+### Put a Headline and Elm Package link in the Github Project description
+
+If you click edit up at the top-right of your github page, you'll have
+a place to enter a `Description` and `Website`. Put a link to your project's
+Elm package page in the `Website`.
+In the `Description`, put a catchy headline that summarizes what your library
+does and what makes it unique in a short sentence.
+
+For example, for [`mdgriffith/style-elements`](https://github.com/mdgriffith/style-elements/)
+it is:
+
+`Description`: Create styles that don't mysteriously break!
+`Website`: https://package.elm-lang.org/packages/mdgriffith/style-elements/latest
 
 ### License
 
