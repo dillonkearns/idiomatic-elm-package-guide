@@ -198,3 +198,27 @@ The [recommended license for Elm projects is BSD3](https://github.com/elm-lang/e
 - The Elm community encourages that package authors follow its [Literal Naming Policy](https://discourse.elm-lang.org/t/literal-names-policy-i-e-how-to-name-packages/242).
 
 - The Elm core team recommends that you "use the `elm-` prefix unless `elm` already appears in the repository name".
+
+### Contributing Section or Document
+
+If you create a file called `CONTRIBUTING`, [Github will automatically link to it](https://help.github.com/articles/setting-guidelines-for-repository-contributors/)
+when your users create issues or pull requests. It's a great idea to store it
+in a separate file, but be sure to link to it!
+
+Many package authors prefer to have discussions before they get pull requests.
+If that's the case for you, give a note in the `## Contributing` section of
+your readme to clarify that.
+
+Note that no matter how clear your contributing guidelines are, many pull requests
+and issues are created without noticing them. That's alright! Kindly link to the
+relevant guidelines to frame the conversation and make it as constructive as possible!
+I often like to frame feature requests in terms of the design goals of the library
+as well. This makes it less of a "who's right?" zero-sum game, and more of a
+collaborative discussion about "how aligned is this direction with these design goals?"
+
+### Thank Your Contributors!
+
+Remember to keep a file or a section in your readme to list of contributors and
+recognize their work! I like to include both contributors of code (through pull requests)
+as well as those who share a lot of feedback or are very helpful reporting issues.
+Open source not just about one person's work, it's about community working together!
