@@ -13,7 +13,7 @@ help you write an Elm package that is:
 
 ## How to Use This Guide
 
-Start with reading through [TEMPLATE.md](./TEMPLATE.md). Then copy-paste the raw file as a starting point for your `README.md` file.
+Start with reading through [TEMPLATE.md](./TEMPLATE.md). You can copy-paste the raw file as a starting point for your `README.md` file.
 
 The rest of this document provides guiding principles, tips, and resources.
 
