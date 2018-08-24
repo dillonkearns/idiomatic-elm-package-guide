@@ -88,7 +88,7 @@ structure from journalism (i.e. bottom line up front... however far you
 read, you've read the most important points).
 
 1. Key summary
-   - Headline (the github project description... this is the first thing users see)
+   - [Headline](https://github.com/dillonkearns/idiomatic-elm-package-guide#put-a-headline-and-elm-package-link-in-the-github-project-description) (the github project description... this is the first thing users see)
    - Why would I want to use this over other packages?
    - What problem does it solve?
 2. Important details
