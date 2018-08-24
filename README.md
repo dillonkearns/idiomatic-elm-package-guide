@@ -23,14 +23,14 @@ Feedback through Slack, Github issues, or pull requests is always welcome! If it
 
 ### The Basics
 
-* The [Elm Package Documentation](https://github.com/elm-lang/elm-package) has basic information on publishing a package, and a few design guidelines
-* [Elm Documentation Preview tool](http://package.elm-lang.org/help/docs-preview) is how you see your docs locally before publishing your package.
-* [Official guide for creating Elm docs](http://package.elm-lang.org/help/documentation-format)
+- The [Elm Package Documentation](https://github.com/elm-lang/elm-package) has basic information on publishing a package, and a few design guidelines
+- [Elm Documentation Preview tool](http://package.elm-lang.org/help/docs-preview) is how you see your docs locally before publishing your package.
+- [Official guide for creating Elm docs](http://package.elm-lang.org/help/documentation-format)
 
 Here are a couple of blog posts on the basics of publishing an Elm package:
 
-* [Publishing Your First Elm Package - @billperegoy](https://becoming-functional.com/publishing-your-first-elm-package-13d984a1200a)
-* [How to publish an Elm package - @Max_Goldstein](https://medium.com/@Max_Goldstein/how-to-publish-an-elm-package-3053b771e545)
+- [Publishing Your First Elm Package - @billperegoy](https://becoming-functional.com/publishing-your-first-elm-package-13d984a1200a)
+- [How to publish an Elm package - @Max_Goldstein](https://medium.com/@Max_Goldstein/how-to-publish-an-elm-package-3053b771e545)
 
 # Core Principles
 
@@ -38,10 +38,10 @@ Here are a couple of blog posts on the basics of publishing an Elm package:
 
 If your package isn't valuable, then the rest of these principles won't help you much! Here are some tips to maximize the value of your Elm package.
 
-* Start simple. Introduce complexity sparingly.
-* Valuable doesn't mean comprehensive. It can be a minimal, simple package but still be extremely valuable. Think of the single-purpose philosophy of unix tools like `ls` or `grep`.
-* Design a [consumer-driven API](https://youtu.be/t-2GiOuLRZc?t=49m41s) (see 49:41-52:57)
-* Check out [Let's Publish Nice Packages - Brian Hicks at Elm Europe 2018](https://www.youtube.com/watch?v=yVn7FOQuwDM) for some great tips like doing research on similar tools and avoiding direct ports from other libraries
+- Start simple. Introduce complexity sparingly.
+- Valuable doesn't mean comprehensive. It can be a minimal, simple package but still be extremely valuable. Think of the single-purpose philosophy of unix tools like `ls` or `grep`.
+- Design a [consumer-driven API](https://youtu.be/t-2GiOuLRZc?t=49m41s) (see 49:41-52:57)
+- Check out [Let's Publish Nice Packages - Brian Hicks at Elm Europe 2018](https://www.youtube.com/watch?v=yVn7FOQuwDM) for some great tips like doing research on similar tools and avoiding direct ports from other libraries
 
 ### Practice `examples`-Driven Development
 
@@ -51,12 +51,12 @@ On the macro level, try starting with an `examples` folder (i.e. `examples`-Driv
 
 As you iterate on your design, review your `examples` folder and ask yourself some questions:
 
-* Are you proud to show these examples off?
-* Is it obvious to someone who hasn't used your library what they are doing?
-* Does the public API make sense?
-* Could the examples be any simpler if the API were different?
-* Is it discoverable (i.e. easy to find the functions you need to accomplish a task)?
-* Can you express things that are invalid using your API?
+- Are you proud to show these examples off?
+- Is it obvious to someone who hasn't used your library what they are doing?
+- Does the public API make sense?
+- Could the examples be any simpler if the API were different?
+- Is it discoverable (i.e. easy to find the functions you need to accomplish a task)?
+- Can you express things that are invalid using your API?
 
 ## 2. Well-Constrained
 
@@ -66,18 +66,31 @@ When publishing a package you will need a toolkit of advanced Elm type technique
 
 These articles by Charlie Koster on advanced Elm types are very useful when writing Elm packages.
 
-* [Part I - Opaque Types](https://medium.com/@ckoster22/advanced-types-in-elm-opaque-types-ec5ec3b84ed2)
-* [Part II - Extensible Records](https://medium.com/@ckoster22/advanced-types-in-elm-extensible-records-67e9d804030d)
-* [Part III - The Never Type](https://medium.com/@ckoster22/advanced-types-in-elm-the-never-type-ca9b3297bbd4)
-* [Part IV - Phantom Types](https://medium.com/@ckoster22/advanced-types-in-elm-phantom-types-808044c5946d)
+- [Part I - Opaque Types](https://medium.com/@ckoster22/advanced-types-in-elm-opaque-types-ec5ec3b84ed2)
+- [Part II - Extensible Records](https://medium.com/@ckoster22/advanced-types-in-elm-extensible-records-67e9d804030d)
+- [Part III - The Never Type](https://medium.com/@ckoster22/advanced-types-in-elm-the-never-type-ca9b3297bbd4)
+- [Part IV - Phantom Types](https://medium.com/@ckoster22/advanced-types-in-elm-phantom-types-808044c5946d)
 
 These videos are full of great tips for designing APIs.
 
-* [Make Data Structures - Richard Feldman @ Elm Europe 2018](https://www.youtube.com/watch?v=x1FU3e0sT1I)
-* [Make Impossible States Impossible](https://www.youtube.com/watch?v=IcgmSRJHu_8)
-* [Understanding Style - Matthew Griffith @ Elm Europe 2017](https://www.youtube.com/watch?v=NYb2GDWMIm0) - Matt goes into details about his consumer-driven API
+- [Make Data Structures - Richard Feldman @ Elm Europe 2018](https://www.youtube.com/watch?v=x1FU3e0sT1I)
+- [Make Impossible States Impossible](https://www.youtube.com/watch?v=IcgmSRJHu_8)
+- [Understanding Style - Matthew Griffith @ Elm Europe 2017](https://www.youtube.com/watch?v=NYb2GDWMIm0) - Matt goes into details about his consumer-driven API
 
 ## 3. Easy to learn and use
+
+### Use the ["Inverted Pyramid"](<https://en.wikipedia.org/wiki/Inverted_pyramid_(journalism)>)
+
+1. Key summary
+   - Headline
+   - Why would I want to use this over other packages?
+   - What problem does it solve?
+2. Important details
+
+   - How do I install and use this library?
+
+3. Other background information
+   - Advanced usage tips
 
 ### Use [Ubiquitous Domain Language](https://martinfowler.com/bliki/UbiquitousLanguage.html)
 
@@ -98,16 +111,16 @@ See [the Learning Resources section in the README template](https://github.com/d
 
 Here are some examples of learning sections from Elm package READMEs:
 
-* [Style Elements learning section](https://github.com/mdgriffith/style-elements/tree/9c36d062f55e0a2b32e5b0158037ed8ff91adcd7#resources-to-get-you-started)
-* [`dillonkearns/elm-graphql` learning section](https://github.com/dillonkearns/elm-graphql#learning-resources)
+- [Style Elements learning section](https://github.com/mdgriffith/style-elements/tree/9c36d062f55e0a2b32e5b0158037ed8ff91adcd7#resources-to-get-you-started)
+- [`dillonkearns/elm-graphql` learning section](https://github.com/dillonkearns/elm-graphql#learning-resources)
 
 ### `CHANGELOG.md`
 
 Maintain a file called `CHANGELOG.md` in the root folder of your project on Github. The purpose of this is to make it easy for users to
 
-* Learn about new features (and how to use them)
-* Learn how to upgrade to new major versions
-* See when a bug is fixed
+- Learn about new features (and how to use them)
+- Learn how to upgrade to new major versions
+- See when a bug is fixed
 
 This is more granular than the commit log itself.
 
@@ -117,14 +130,15 @@ Copy-paste the template from [Keep a Changelog](https://keepachangelog.com/) to 
 
 Every time someone asks a question, consider answering it in your FAQ.
 
-* Keep FAQs in an FAQ.md file or FAQ section in your README.
-* Instead of directly answering a common question, send a link to the answer. That way you don't ever have to write that answer again, and it is there for future reference.
-* If a question keeps coming up, it may also mean that it's an opportunity to make your API simpler or more intuitive.
+- Keep FAQs in an FAQ.md file or FAQ section in your README.
+- Instead of directly answering a common question, send a link to the answer. That way you don't ever have to write that answer again, and it is there for future reference.
+- If a question keeps coming up, it may also mean that it's an opportunity to make your API simpler or more intuitive.
 
 ### Always expose types that can be created from your API
+
 You often see Github issues or pull requests [like this one](https://github.com/mdgriffith/style-elements/pull/95) requesting that [an Opaque Type](https://medium.com/@ckoster22/advanced-types-in-elm-opaque-types-ec5ec3b84ed2) be exposed in the API so that users of the API can annotate their functions that use values of that type. Avoid these types of requests by always following this rule of thumb:
 
-> If your public API allows you to create a value (even an intermediary one) of a given type, *always* expose that type in your public API so users can annotate their functions.
+> If your public API allows you to create a value (even an intermediary one) of a given type, _always_ expose that type in your public API so users can annotate their functions.
 
 ## 4. Easy to tell if it's the right fit for the problem at hand
 
@@ -134,14 +148,14 @@ What differentiates your project from any other project out there? Since Elm pac
 
 Writing out explicit design goals is a great idea even before you write any code (of course you can always revise them). They serve as:
 
-* A reminder to the package author of the core principles during design iteration
-* A clear statement of goals to help users decide whether the library is a good fit for them
-* A reference point for conversations about feature requests that helps ground the conversation in the basic goals of the library. This makes for a much more empathetic conversation (for example, someone could have a great idea that's not inline with the design goals of a library... in that case, perhaps a new library could be created, OR a different solution could be considered that honors the design goals of the library)
+- A reminder to the package author of the core principles during design iteration
+- A clear statement of goals to help users decide whether the library is a good fit for them
+- A reference point for conversations about feature requests that helps ground the conversation in the basic goals of the library. This makes for a much more empathetic conversation (for example, someone could have a great idea that's not inline with the design goals of a library... in that case, perhaps a new library could be created, OR a different solution could be considered that honors the design goals of the library)
 
 Here are some examples of design goals clearly stated in an Elm package README:
 
-* [`dillonkearns/elm-graphql` design goals](https://github.com/dillonkearns/elm-graphql#dillonkearnselm-graphql)
-* [Style Elements design goals](https://github.com/mdgriffith/style-elements/#building-a-new-layout-language)
+- [`dillonkearns/elm-graphql` design goals](https://github.com/dillonkearns/elm-graphql#dillonkearnselm-graphql)
+- [Style Elements design goals](https://github.com/mdgriffith/style-elements/#building-a-new-layout-language)
 
 See [the Design Goals section of the README template](https://github.com/dillonkearns/idiomatic-elm-package-guide/blob/master/TEMPLATE.md#design-goals).
 
@@ -155,6 +169,6 @@ The [recommended license for Elm projects is BSD3](https://github.com/elm-lang/e
 
 ### Package Naming
 
-* The Elm community encourages that package authors follow its [Literal Naming Policy](https://discourse.elm-lang.org/t/literal-names-policy-i-e-how-to-name-packages/242).
+- The Elm community encourages that package authors follow its [Literal Naming Policy](https://discourse.elm-lang.org/t/literal-names-policy-i-e-how-to-name-packages/242).
 
-* The Elm core team recommends that you "use the `elm-` prefix unless `elm` already appears in the repository name".
+- The Elm core team recommends that you "use the `elm-` prefix unless `elm` already appears in the repository name".
