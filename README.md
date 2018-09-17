@@ -13,7 +13,9 @@ help you write an Elm package that is:
 
 ## How to Use This Guide
 
-Start with reading through [TEMPLATE.md](./TEMPLATE.md). You can copy-paste the raw file as a starting point for your `README.md` file.
+Check out [this tweet that lays out some ideas from Elm's philosophy](https://twitter.com/czaplic/status/928359033844539393)! It's got some great points regarding both community and API design.
+
+You can read through [TEMPLATE.md](./TEMPLATE.md) for inspiration. It's a good starting point for your `README.md` if you want to copy-paste it.
 
 The rest of this document provides guiding principles, tips, and resources.
 
