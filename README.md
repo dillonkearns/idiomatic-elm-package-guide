@@ -29,10 +29,9 @@ Feedback through Slack, Github issues, or pull requests is always welcome! If it
 - [Elm Documentation Preview tool (works with Elm 0.19)](https://elm-doc-preview.netlify.com/) is how you see your docs locally before publishing your package.
 - [Official guide for creating Elm docs](http://package.elm-lang.org/help/documentation-format)
 
-Here are a couple of blog posts on the basics of publishing an Elm package:
+Here is a blog posts about the process of publishing an Elm package:
 
-- [Publishing Your First Elm Package - @billperegoy](https://becoming-functional.com/publishing-your-first-elm-package-13d984a1200a)
-- [How to publish an Elm package - @Max_Goldstein](https://medium.com/@Max_Goldstein/how-to-publish-an-elm-package-3053b771e545)
+[The Basic Steps to Publish a Package in Elm 0.19 - Alex Korban](https://korban.net/posts/elm/2018-10-02-basic-steps-publish-package-elm-19/)
 
 # Core Principles
 
