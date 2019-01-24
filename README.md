@@ -46,7 +46,7 @@ If your package isn't valuable, then the rest of these principles won't help you
 
 ### Practice `examples`-Driven Development
 
-When writing your Elm package, try to expose the minimal interface possible, AND drive that interface by concrete use cases. Test-driven development is a great way to do this on the micro level (see [programming by intention](https://tobeagile.com/2016/08/31/programming-by-intention/)). Take a look at the [elm-test documentation](https://github.com/elm-community/elm-test) for how to get started, and for best practices on writing a test suite.
+When writing your Elm package, try to expose the minimal interface possible, AND drive that interface by concrete use cases. Test-driven development is a great way to do this on the micro level (see [programming by intention](https://tobeagile.com/2016/08/31/programming-by-intention/)). Take a look at the [elm-test documentation](https://package.elm-lang.org/packages/elm-explorations/test/latest) for how to get started, and for best practices on writing a test suite.
 
 On the macro level, try starting with an `examples` folder (i.e. `examples`-Driven Development). Start with a simple yet meaningful example. (For example, with [`elm-cli-options-parser`](https://github.com/dillonkearns/elm-cli-options-parser), I started with an end-to-end example of building up the `elm-test` Command-Line Interface since it is a simple but meaningful and concrete interface). Then, add features to your package as needed to complete this simple but meaningful example and get it working fully end-to-end.
 
@@ -58,6 +58,11 @@ As you iterate on your design, review your `examples` folder and ask yourself so
 - Could the examples be any simpler if the API were different?
 - Is it discoverable (i.e. easy to find the functions you need to accomplish a task)?
 - Can you express things that are invalid using your API?
+
+You can make sure that your examples are valid by adding a [Travis](https://travis-ci.org) job so you get emails if any of your checks fail. Some ways you can check your examples:
+- The [`elm-verify-examples`](https://www.npmjs.com/package/elm-verify-examples) tool lets you run the examples in your docs like unit tests!
+- Use `elm make` to make sure all of your `examples` compile
+- Have a good-old-fashioned [`elm-test`](https://package.elm-lang.org/packages/elm-explorations/test/latest) suite that shows some meaningful use cases (avoid toy examples!)
 
 ## 2. Well-Constrained
 
