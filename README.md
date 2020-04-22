@@ -198,7 +198,7 @@ it is:
 
 ### License
 
-The [recommended license for Elm projects is BSD3](https://github.com/elm-lang/elm-package#preparing-for-publication).
+The [recommended license for Elm projects is BSD3](https://github.com/elm/compiler/blob/master/docs/elm.json/package.md#license).
 
 ### Package Naming
 
