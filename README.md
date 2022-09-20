@@ -23,6 +23,13 @@ Feedback through Slack, Github issues, or pull requests is always welcome! If it
 
 ## Learning Resources
 
+### Useful Tools for Elm Package Authors
+
+- [`dillonkearns/elm-publish-action`](https://github.com/dillonkearns/elm-publish-action) lets you automate publishing packages in your GitHub Actions (just run `elm bump` and commit the updated elm.json and `elm-publish-action` automates the rest). This helps you ensure that you only publish after a successful run of your build/test suite.
+- [`stoeffel/elm-verify-examples`](https://github.com/stoeffel/elm-verify-examples) lets you write examples inline in your doc comments and then run them as a test suite
+- [`dmy/elm-doc-preview`](https://github.com/dmy/elm-doc-preview) lets you view your package documentation locally with hot reloading (including any errors for generating your docs). You can also preview documentation using the online tool by going to a URL like https://elm-doc-preview.netlify.app/?repo=dillonkearns%2Felm-pages&version=serverless-latest (you'll need to run `elm make docs=docs.json` and push the committed `docs.json` file for the tool to pick up your docs though).
+
+
 ### The Basics
 
 - The [Elm Package Documentation](https://github.com/elm-lang/elm-package) has basic information on publishing a package, and a few design guidelines
